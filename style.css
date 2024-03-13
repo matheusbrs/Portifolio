@@ -1,0 +1,341 @@
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+p {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.icone-menu{
+    display: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+
+/* navegador*/
+nav {
+
+    height: 40px;
+    background-color: #777;
+
+}
+
+.nav-nav{
+margin-bottom: 0;
+padding: 0;
+margin: 0;
+}
+
+
+
+.contato-nav li, .icone-nav li {
+    float: left;
+    padding: 5px;
+    list-style-type: none;
+    
+
+}
+
+.icone-nav {
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+nav ul :hover {
+
+    color: rgb(196, 0, 0);
+    transition: 1s;
+
+}
+
+/* web*/
+
+.web-entrada {
+    margin: 0px 220px;
+    margin-top: 100px;
+
+}
+.web-entrada span {
+    color: red;
+    font-size: 20px;
+
+
+
+}
+
+
+.web {
+
+    padding-bottom: 220px;
+
+}
+
+.destaque-web .perfil {
+    width: 200px;
+    float: right;
+    border-radius: 100px;
+
+
+
+}
+
+.web-entrada li {
+    list-style-type: none;
+}
+
+.destaque-web button {
+    border-radius: 10px;
+    background: #777;
+
+    &:hover {
+        box-shadow: 10px 5px 5px rgb(99, 97, 97);
+        background: red;
+        transition: 1s;
+    }
+
+}
+
+.destaque-web button a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+
+/* sobre*/
+article h1 {
+    text-align: center;
+    border: solid 1px black;
+    background: #777;
+    color: white;
+
+}
+
+article p {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+
+
+}
+
+
+
+/* web*/
+caption {
+    border: solid 1px black;
+}
+
+
+section ul li {
+    list-style-type: none;
+}
+
+.habilidades {
+ 
+     margin: 10px auto;
+    box-sizing: border-box;
+   
+
+    
+}
+
+.linguagens{
+    margin: 50px 190px;
+  margin-top: 15px;
+  
+}
+
+
+.habilidades ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.habilidades h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+   width: 100%;
+    background: #777;
+}
+
+/* Portifolio*/
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.portifolio h1{
+  color: white;
+  text-align: center;
+  background-color: #777;
+  width: 100%;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 320px;
+}
+
+.project .content {
+    padding: 20px;
+}
+
+.project h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project .button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project .button:hover {
+    background-color: #555;
+}
+
+
+
+.portifolio span button a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+/* contato*/
+
+footer h1 {
+    border: solid 1px black;
+    width: 100%;
+    padding: 10px;
+    background: #777;
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width:640px) {
+    .web {
+      
+    }
+
+    .destaque-web {
+        height: 150px;
+        
+       
+       margin-bottom: 1s0px;
+    }
+
+    .web-entrada {
+        margin: 0 auto;
+        
+    }
+
+    .web-entrada h1 {
+        padding: 10px;
+        margin-top: 60px;
+    }
+
+    .web-entrada .perfil {
+        margin: 0 auto;
+
+        width: 50%;
+    }
+
+    .web-entrada button {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Sobre*/
+    article {
+        margin-top: 0;
+    }
+
+
+    .habilidades ul{
+        
+    }
+  .linguagens{
+display: contents;
+  }
+  .linguagens img{
+margin-left: 30px;
+      }
+
+     /* Portifolio*/
+
+    
+    .imagem1{
+        background-image: url(img/imc.png)no-repeat ;
+    }
+    .icone-menu{
+        display: block;
+
+    }
+
+    .icone-nav{
+  margin-right: auto;
+       
+    }
+}
+
+
+
+
+   
+    
+   
