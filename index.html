@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matheus Brendon</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
 </head>
 
 <body>
 
     <header>
-
-        <nav class="cabecalho ">
+        <nav class="cabecalho">
             <ul class="container">
-                <li></li>
-                <li><a href="https://www.linkedin.com/in/matheus-brendon-back-and/">Linkedin</a></li>
-                <li><a href="https://github.com/matheusbrs">GitHub</a></li>
-                <li><a href="https://wa.me/5561981433649">Whatsapp</a></li>
+                <li><a title="LinkedIn" aria-role="tooltip" aria-describedby="LinkedIn" href="https://www.linkedin.com/in/matheus-brendon-back-and/"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a title="Github" aria-role="tooltip" aria-describedby="Github" href="https://github.com/matheusbrs"><i class="fa-brands fa-square-github"></i></a></li>
+                <li><a title="whatsapp" aria-role="tooltip" aria-describedby="whatsapp" href="https://wa.me/5561981433649"><i class="fa-brands fa-square-whatsapp"></i></a></li>
             </ul>
         </nav>
-
+        <div class="button-menu">
+            <button type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
     </header>
 
     <section class="sobre container">
-        <h1 class="nome">Matheus Brendon </h1>
+        <h1 class="nome">Matheus Brendon</h1>
         <div class="img-perfil">
             <img class="foto" src="img/96361208.jfif" alt="">
         </div>
@@ -40,98 +43,114 @@
 
                 Este portfólio tem como objetivo mostrar minhas experiências e projetos em andamento, enquanto continuo
                 desenvolvendo minhas habilidades e me aprimorando na área.
-
+            </p>
         </div>
     </section>
     <section class="projetos container">
-        <h1>Projetos de estudos</h1>
+        <h2>Projetos de estudos</h2>
         <div class="div-projetos">
             <div class="img-projeto">
                 <img class="img-projeto" src="img/ok.png" alt="">
                 <div class="tecnologias">
-                    <img src="img/javascript-stickers-adesivo-800x800.png" alt=""> </p>
-                    <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/create-bulma-css-framework-website.png" alt="">
+                    <img src="img/javascript.png" title="Vanilla Javascript" alt="Vanilla Javascript" />
+                    <img src="img/html.png" title="HTML" alt="HTML" />
+                    <img src="img/css.png" title="CSS" alt="CSS" />
+                    <img src="img/bulma.png" title="Bulma" alt="Bulma" />
                 </div>
             </div>
-            <div>
+            <div class="container">
                 <p class="texto-projeto"> Este projeto é um sistema de interação em uma página web que permite aos
                     usuários selecionar uma opção de avaliação (por exemplo, "Ótimo", "Bom, mas pode melhorar", "Não
                     gostei") e enviar sua escolha.
                 </p>
-                <button class="button is-link"><a href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
-                </button>
-                <button class="button is-link"><a href="https://github.com/magas-xlr/spa-golden-verbena">Acessar
-                        Projeto</a></button>
+                <div class="button-container">
+                    <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                </div>
             </div>
         </div>
+        <hr />
         <div class="div-projetos">
             <div class="img-projeto">
                 <img class="img-projeto" src="img/agenda.png" alt="">
                 <div class="tecnologias">
-                    <img src="img/javascript-stickers-adesivo-800x800.png" alt=""> </p>
-                    <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/create-bulma-css-framework-website.png" alt="">
+                    <img src="img/javascript.png" title="Vanilla Javascript" alt="Vanilla Javascript" />
+                    <img src="img/html.png" title="HTML" alt="HTML" />
+                    <img src="img/css.png" title="CSS" alt="CSS" />
+                    <img src="img/bulma.png" title="Bulma" alt="Bulma" />
                 </div>
             </div>
-            <div>
+            <div class="container">
                 <p class="texto-projeto">Neste projeto de estudo, desenvolvemos um sistema que verifica e impede a
                     criação de um novo cadastro caso o número informado já esteja registrado. Isso garante a integridade
-                    dos dados, evitando duplicatas e assegurando um processo mais eficiente e confiável.</p>
-                <button class="button is-link"><a href="https://github.com/matheusbrs/Agenda">GitHub</a> </button>
-                <button class="button is-link"> <a href="https://agenda-nu-ruddy.vercel.app">Acessar
-                        Projeto</a></button>
+                    dos dados, evitando duplicatas e assegurando um processo mais eficiente e confiável.
+                </p>
+                <div class="button-container">
+                    <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                </div>
             </div>
         </div>
+        <hr />
         <div class="div-projetos">
             <div class="img-projeto">
                 <img class="img-projeto" src="img/imc.png" alt="">
                 <div class="tecnologias">
-                    <img src="img/php.png" alt=""> </p>
-                    <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/create-bulma-css-framework-website.png" alt="">
+                    <img src="img/javascript.png" title="Vanilla Javascript" alt="Vanilla Javascript" />
+                    <img src="img/html.png" title="HTML" alt="HTML" />
+                    <img src="img/css.png" title="CSS" alt="CSS" />
+                    <img src="img/php.png" title="PHP" alt="PHP" />
                 </div>
             </div>
-            <div>
+            <div class="container">
                 <p class="texto-projeto">Um dos primeiros projetos de estudo que desenvolvi foi um cálculo de IMC
                     (Índice de Massa Corporal). Este projeto permite que os usuários insiram seu peso e altura para
                     determinar o IMC, uma métrica simples que avalia se a pessoa está dentro de um peso saudável com
                     base na relação entre massa corporal e altura. Foi uma ótima oportunidade para aprender lógica de
                     programação e trabalhar com interatividade básica em aplicações.</p>
-                <button class="button is-link"><a href="https://github.com/matheusbrs/IMC">GitHub</a> </button>
-                <button class="button is-link"><a href="">Acessar Projeto</a></button>
+                <div class="button-container">
+                    <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                </div>
             </div>
         </div>
+        <hr />
         <div class="div-projetos">
             <div class="img-projeto">
                 <img class="img-projeto" src="img/landing-page-bunge.png" alt="">
                 <div class="tecnologias">
-                    <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="">
+                    <img src="img/javascript.png" title="Vanilla Javascript" alt="Vanilla Javascript" />
+                    <img src="img/html.png" title="HTML" alt="HTML" />
+                    <img src="img/css.png" title="CSS" alt="CSS" />
+                    <img src="img/bulma.png" title="Bulma" alt="Bulma" />
                 </div>
             </div>
-            <div>
-                <p class="texto-projeto">Uma landing page eficaz para uma indústria de alimentos deve ser visualmente atraente, transmitir credibilidade e destacar os diferenciais da marca. </p>
-                <button class="button is-link"><a href="https://github.com/matheusbrs/landing-page-bunge">GitHub</a> </button>
-                <button class="button is-link"><a href=""><a href="https://landing-page-bunge.vercel.app">Acessar Projeto</a> </a></button>
+            <div class="container">
+                <p class="texto-projeto">Uma landing page eficaz para uma indústria de alimentos deve ser visualmente
+                    atraente, transmitir credibilidade e destacar os diferenciais da marca. </p>
+                <div class="button-container">
+                    <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                </div>
             </div>
         </div>
+        <hr />
         <div class="div-projetos">
             <div class="img-projeto">
                 <img class="img-projeto" src="img/Lampada.png" alt="">
                 <div class="tecnologias">
-                    <img src="img/HTML5_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="">
-                    <img src="img/javascript-stickers-adesivo-800x800.png" alt="">
+                    <img src="img/javascript.png" title="Vanilla Javascript" alt="Vanilla Javascript" />
+                    <img src="img/html.png" title="HTML" alt="HTML" />
+                    <img src="img/css.png" title="CSS" alt="CSS" />
+                    <img src="img/bulma.png" title="Bulma" alt="Bulma" />
                 </div>
             </div>
-            <div>
+            <div class="container">
                 <p class="texto-projeto">Lâmpada interativa: acender, apagar, quebrar. </p>
-                <button class="button is-link"><a href="https://github.com/matheusbrs/Lampada">GitHub</a> </button>
-                <button class="button is-link"><a href=""><a href="https://lampadacominterrupitor.vercel.app">Acessar Projeto</a> </a></button>
+                <div class="button-container">
+                    <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                </div>
             </div>
         </div>
     </section>

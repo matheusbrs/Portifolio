@@ -1,3 +1,4 @@
+
 /* Reset básico */
 * {
     margin: 0;
@@ -16,7 +17,6 @@ body {
 
 p {
     font-size: 18px;
-
 }
 
 header {
@@ -34,6 +34,12 @@ header {
     background-color: #2c2c2c;
 
 }
+
+header .button-menu {
+    width: 100%;
+    display: none;
+}
+
 
 .projetos {
     background: #2c2c2c;
@@ -56,37 +62,35 @@ li {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    padding: 1rem;
 }
 
 h1 {
     text-align: center;
     font-size: 30px;
     padding: 10px 0;
-    
+
 }
 
 h2 {
     text-align: center;
     font-size: 25px;
-    padding: 10px 0;
+    padding: 16px 0;
     font-weight: bold;
-    
+
 }
 
-.img-perfil,
-img {
+.img-perfil {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .foto {
     width: 180px;
     border-radius: 70px;
-    padding: 30px 0;
+    padding-top: 1rem;
 }
-
-.img-projeto,
-img {
+.img-projeto {
     margin: 0 auto;
     width: 520px;
     transition: all 0.3s ease-in-out;
@@ -94,14 +98,13 @@ img {
 
 .projetos,
 p {
-    text-align: center;
-    max-width: 50%;
+    text-align: justify;
     margin: 0 auto;
 }
 
 .projetos,
 button {
-   
+
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -123,74 +126,118 @@ a:hover {
     display: flex;
 }
 
-.nome{
-  text-align: center;
-  font-size: 30px;
-  color: #f71559;
-  font-weight: bold;
+.nome {
+    text-align: center;
+    font-size: 30px;
+    color: #f71559;
+    font-weight: bold;
 }
 
-.div-projetos{
-    margin-bottom: 80px;
-}
-
-.texto-projeto{
+.texto-projeto {
     margin-top: 10px;
 }
 
-button{
+button {
     margin-top: 20px;
 }
 
-.img-projeto,
-img {
+.img-projeto img {
     border-radius: 10px;
     margin: 0 auto;
-    width: 520px;
-    transition: all 0.3s ease-in-out; /* Transição suave */
+    transition: all 0.3s ease-in-out;
+    /* Transição suave */
 }
 
-.img-projeto:hover,
-img:hover {
-    transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% no hover */
+.img-projeto img:hover {
+    transform: scale(1.1);
+    /* Aumenta o tamanho da imagem em 10% no hover */
 }
 
-.tecnologias{
-    width: 40px;
-    height: 40px;
-    display: flex;  
+.tecnologias {
+    display: flex;
     margin: 0 auto;
     align-items: center;
-    padding: 30px 0;
-   
+    padding-top: 32px;
 }
 
-@media screen and (max-width: 480px){
-    .menu-desktop{
+@media screen and (max-width: 480px) {
+
+    header .button-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .div-projetos {
+        margin-bottom: 32px;
+    }
+
+    .menu-desktop {
         display: none;
     }
 
-    .container{
+    .container {
         max-width: 1333%;
     }
 
-    .projetos{
+    .projetos {
         max-width: 100%;
     }
 
-    .img-projeto{
+    .img-projeto {
         max-width: 290px;
-    }
-    img{
-        width: 20px;
     }
 
     .cabecalho {
         display: none;
     }
 
-p{
+    p {
 
-    font-size: 12px;
+        font-size: 12px;
+    }
 }
+
+.button-container {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container a {
+    margin: .5rem;
+    width: 100%;
+    max-width: 150px;
+}
+
+.button-container a:hover {
+    color: #000;
+    font-weight: bold;
+    margin: .5rem;
+}
+
+.tecnologias img {
+    height: 4rem;
+}
+
+hr {
+    margin-bottom: 2rem;
+    opacity: .1;
+}
+
+nav a i {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+nav a:hover i {
+    opacity: 1;
+}
+
+header .button-menu button {
+    padding: 0 1rem;
+}
+
+header .button-menu i {
+    font-size: 2rem;
 }
