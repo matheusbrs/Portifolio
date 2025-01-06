@@ -162,11 +162,6 @@ button {
 
 @media screen and (max-width: 480px) {
 
-    header .button-menu {
-        display: flex;
-        justify-content: flex-end;
-    }
-
     .div-projetos {
         margin-bottom: 32px;
     }
@@ -195,6 +190,9 @@ button {
 
         font-size: 12px;
     }
+
+   
+
 }
 
 .button-container {
