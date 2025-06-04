@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matheus Brendon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fontawesome/css/all.min.css" />
@@ -13,19 +15,31 @@
 <body>
 
     <header>
-        <nav class="cabecalho">
-            <ul class="container">
-                <li><a title="LinkedIn" aria-role="tooltip" aria-describedby="LinkedIn" href="https://www.linkedin.com/in/matheus-brendon-back-and/"><i class="fa-brands fa-linkedin"></i></a></li>
-                <li><a title="Github" aria-role="tooltip" aria-describedby="Github" href="https://github.com/matheusbrs"><i class="fa-brands fa-square-github"></i></a></li>
-                <li><a title="whatsapp" aria-role="tooltip" aria-describedby="whatsapp" href="https://wa.me/5561981433649"><i class="fa-brands fa-square-whatsapp"></i></a></li>
-            </ul>
-        </nav>
-        <div class="button-menu">
-            <button type="button">
-                <i class="fa-solid fa-bars"></i>
-            </button>
+        
+        <div id="btnMenu">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
     </header>
+    <nav class="cabecalho">
+            <h1>MENU</h1>
+            <ul class="container menu">
+                <li><a title="LinkedIn" aria-role="tooltip" aria-describedby="LinkedIn"
+                        href="https://www.linkedin.com/in/matheus-brendon-back-and/"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <p class="text-menu">Linkedin</p>
+                </li>
+                <li><a title="Github" aria-role="tooltip" aria-describedby="Github"
+                        href="https://github.com/matheusbrs"><i class="fa-brands fa-square-github"></i></a>
+                    <p class="text-menu">GitHub</p>
+                </li>
+                <li><a title="whatsapp" aria-role="tooltip" aria-describedby="whatsapp"
+                        href="https://wa.me/5561981433649"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <p class="text-menu">Whatsapp</p>
+                </li>
+            </ul>
+        </nav>
 
     <section class="sobre container">
         <h1 class="nome">Matheus Brendon</h1>
@@ -65,7 +79,8 @@
                 </p>
                 <div class="button-container">
                     <a class="button" href="https://github.com/magas-xlr/spa-golden-verbena">GitHub</a>
-                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar
+                        Projeto</a>
                 </div>
             </div>
         </div>
@@ -110,7 +125,8 @@
                     programação e trabalhar com interatividade básica em aplicações.</p>
                 <div class="button-container">
                     <a class="button" href="https://github.com/matheusbrs/IMC">GitHub</a>
-                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar Projeto</a>
+                    <a class="button is-success" href="https://github.com/magas-xlr/spa-golden-verbena">Acessar
+                        Projeto</a>
                 </div>
             </div>
         </div>
@@ -154,9 +170,8 @@
             </div>
         </div>
     </section>
-    <footer>
-
-    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
