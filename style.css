@@ -193,60 +193,65 @@ button {
 }
 
 @media screen and (max-width: 480px) {
-
-   #btnMenu span{
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-   }
-
+container menu{
+    display: flex;
+    justify-content: center;
+}
+    #btnMenu span {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .div-projetos {
         margin-bottom: 32px;
     }
 
-    .menu{
-        display: flex;
-        flex-direction: column;       
-        width: 60%;
-        margin: 0 auto;
+    .menu {
+        display: grid;
+        justify-content: flex-end;
+        margin-right: 15px;
+        flex-direction: column;
     }
-
-    .menu li{
+    .menu li {
         display: flex;
         align-items: center;
-        max-width: 50%;    
+        max-width: 50%;
     }
-
-    .text-menu{
+    .text-menu {
         font-size: 20px;
         color: white;
-       margin-left: 30%;
+        margin-left: 30%;
     }
     .container {
         max-width: 1333%;
     }
-
     .projetos {
         max-width: 100%;
     }
-
     .img-projeto {
         max-width: 290px;
     }
 
     .cabecalho {
-       max-width: 60%;
-       border-radius: 10px;
-       display: grid;
-       justify-content: center;
-       margin-left: 38%;
-       margin-top: 5px;
+        display: flex;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height .9s ease;
+    }
+
+    .cabecalho.aberto {
+        max-height: 300px;
     }
 
     p {
         font-size: 12px;
     }
-
+nav{
+    max-width: 70%;
+    margin-left: 35%;
+    margin-top: 2px;
+    border-radius: 10px;
+}
 }
 
 .button-container {

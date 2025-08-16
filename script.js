@@ -1,6 +1,5 @@
-$('document').ready(() => {
-    
-    $('#btnMenu').click(() =>{
-        $('nav').slideToggle();
-    })
+$(function () {
+  $('#btnMenu').on('click', function () {
+    $('.cabecalho').toggleClass('aberto');
+  });
 });
