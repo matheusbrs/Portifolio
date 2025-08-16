@@ -192,7 +192,37 @@ button {
     padding-top: 32px;
 }
 
+
+.whatsapp {
+  position: fixed;       /* fixa na tela */
+  bottom: 20px;          /* distância do rodapé */
+  right: 20px;           /* distância da lateral direita */
+  z-index: 1000;         /* fica acima dos outros elementos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;    /* deixa redondinho */
+  background-color: green;
+  padding: 1px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-right: 23%;
+}
+
+.whatsapp:hover {
+  transform: scale(1.1); /* animação no hover */
+}
+
+.whatsapp svg {
+  width: 30px;
+  height: 30px;
+  fill: white;           /* deixa o ícone branco */
+}
+
 @media screen and (max-width: 480px) {
+    .whatsapp{
+        margin-right: 0;
+    }
 container menu{
     display: flex;
     justify-content: center;
@@ -285,7 +315,7 @@ hr {
 nav a i {
     font-size: 3rem;
     opacity: 0.5;
-    color: #f82044;
+    color: #f4145c;
 }
 
 nav a:hover i {
